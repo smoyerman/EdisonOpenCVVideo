@@ -3,8 +3,8 @@ import numpy as np
 import cv2
 
 # Define variables
-framerate = 20.0
-videolength = 3
+framerate = 20.0   # frames per second
+videolength = 3    # length of video in seconds
 
 # Grab Camera
 cap = cv2.VideoCapture(0)
