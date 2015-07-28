@@ -18,7 +18,6 @@ for i in range(int(videolength*framerate)):
     if(cap.isOpened()):
         ret, frame = cap.read()
         if ret==True:
-            frame = cv2.flip(frame,0)
             out.write(frame)
         else:
             continue
